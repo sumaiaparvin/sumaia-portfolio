@@ -1,19 +1,29 @@
 body{
     font-family: 'Island Moments', cursive;
 font-family: 'Poppins', sans-serif;
+margin: 0px;
 }
 h1{
     font-size: 50px;
     border-left: 5px solid yellowgreen;
     border-image-slice: 10% 30%;
     padding-left: 2%;
+}
+h2{
+    font-size: 40px;
+    text-align: center;
+}
+h3{
+    font-size: 30px;
     
 
 }
 .chng-colr{
     color:yellowgreen;
-    display: block;
-   
+    display: block;  
+}
+.colr-2{
+    color: rgb(233, 70, 29);
 }
 .prothom{
 display: flex;
@@ -39,6 +49,66 @@ display: flex;
    display: inline-block;
    margin-top: 20px;
    margin-bottom: 20px;
+}
+.ditiyo{
+   display: flex;
+   margin: auto;
+   width: 75%;
+}
+.mission {
+    width: 25%;
+    background-color: wheat;
+    border-radius: 10px;
+    margin-right: 50px;
+    padding:10px 20px;
+}
+.vission{
+width: 25%;
+background-color: rgb(157, 210, 241);
+    border-radius: 10px;
+    margin-right: 50px;
+    padding:10px 20px;
+}
+.goals{
+    width: 25%;
+    background-color: rgb(245, 179, 236);
+    border-radius: 10px;
+    margin-right: 50px;
+    padding:10px 20px;
+}
+
+.mission img{
+    height: 100px;
+    width: 100px;
+}
+.vission img{
+    height: 100px;
+    width: 100px;
+}
+.goals img{
+    height: 100px;
+    width: 100px;
+}
+.tritiyo{
+    display: flex;
+   margin-top: 100px;
+   margin-left: 100px;
+}
+.tritiyo img{
+    width: 60%;
+   float: left;
+  
+}
+.char{
+    display: flex;
+   margin-top: 100px;
+    margin-left: 100px;
+}
+.char img{
+    width: 50%;
+   float:right;
+   margin-right: 100px;
+  
 }
 
 
